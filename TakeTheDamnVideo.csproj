@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>TakeTheDamnVideo</AssemblyName>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>/home/narezany/.config/r2modmanPlus-local/REPO/cache/BepInEx-BepInExPack/5.4.2304/BepInExPack/BepInEx/core/BepInEx.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>/home/narezany/.config/r2modmanPlus-local/REPO/cache/BepInEx-BepInExPack/5.4.2304/BepInExPack/BepInEx/core/0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>/mnt/data/SteamLibrary/steamapps/common/Gorilla Tag/Gorilla Tag_Data/Managed/UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/mnt/data/SteamLibrary/steamapps/common/Gorilla Tag/Gorilla Tag_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/mnt/data/SteamLibrary/steamapps/common/Gorilla Tag/Gorilla Tag_Data/Managed/UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>/mnt/data/SteamLibrary/steamapps/common/Gorilla Tag/Gorilla Tag_Data/Managed/UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LIV.LCK">
+      <HintPath>/mnt/data/SteamLibrary/steamapps/common/Gorilla Tag/Gorilla Tag_Data/Managed/LIV.LCK.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LIV.LCKCore">
+      <HintPath>/mnt/data/SteamLibrary/steamapps/common/Gorilla Tag/Gorilla Tag_Data/Managed/LIV.LCKCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LIV.LCK_GorillaTag">
+      <HintPath>/mnt/data/SteamLibrary/steamapps/common/Gorilla Tag/Gorilla Tag_Data/Managed/LIV.LCK_GorillaTag.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
