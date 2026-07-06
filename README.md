@@ -1,4 +1,4 @@
-# TakeTheDamnVideo
+# Take The Damn Video
 
 A BepInEx plugin for **Gorilla Tag** that fixes the built-in LIV camera on Linux under Proton. 
 
