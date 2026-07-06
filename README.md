@@ -1,6 +1,6 @@
 # TakeTheDamnVideo
 
-A BepInEx plugin for **Gorilla Tag** that fixes the built-in VR camera (photo/video capture) on Linux/Steam Deck under Proton. 
+A BepInEx plugin for **Gorilla Tag** that fixes the built-in VR camera (photo/video capture) on Linux under Proton. 
 
 It works by intercepting the high-level C# camera wrappers and replacing the native Windows Media Foundation (WMF) encoding pipeline (which fails under Proton) with a lightweight, pure C# MJPEG/AVI encoder.
 
